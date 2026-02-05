@@ -1,0 +1,187 @@
+Backend: Vitis
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    bn1:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      ReuseFactor: 1
+      Trace: false
+    bn2:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      ReuseFactor: 1
+      Trace: false
+    input_layer:
+      Precision:
+        result: auto
+      Trace: false
+    qconvbn1:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: fixed<8,4,TRN,WRAP,0>
+        result: auto
+        weight: fixed<8,4,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    qconvbn1_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qconvbn2:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: fixed<8,4,TRN,WRAP,0>
+        result: auto
+        weight: fixed<8,4,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    qconvbn2_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qdense1:
+      Precision:
+        accum: auto
+        bias: fixed<8,4,TRN,WRAP,0>
+        result: auto
+        weight: fixed<8,4,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    qdense1_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qdense2:
+      Precision:
+        accum: auto
+        bias: fixed<8,4,TRN,WRAP,0>
+        result: auto
+        weight: fixed<8,4,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    qdense2_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qflatten:
+      Precision:
+        result: auto
+      Trace: false
+    qmaxpool1:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    qmaxpool2:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    qoutput:
+      Precision:
+        accum: auto
+        bias: fixed<8,4,TRN,WRAP,0>
+        result: auto
+        weight: fixed<8,4,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    qoutput_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qtanh1:
+      Precision:
+        result: fixed<8,1,RND_CONV,SAT,0>
+        shift: auto
+        slope: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qtanh2:
+      Precision:
+        result: fixed<8,1,RND_CONV,SAT,0>
+        shift: auto
+        slope: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qtanh3:
+      Precision:
+        result: fixed<8,1,RND_CONV,SAT,0>
+        shift: auto
+        slope: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    qtanh4:
+      Precision:
+        result: fixed<8,1,RND_CONV,SAT,0>
+        shift: auto
+        slope: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    softmax:
+      Implementation: stable
+      Precision:
+        exp_table: fixed<18,8,RND,SAT,0>
+        inv_table: fixed<18,8,RND,SAT,0>
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      Skip: false
+      TableSize: 1024
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    ClockPeriod: 5
+    Precision: ap_fixed<8,4>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_stream
+InputData: tb_input.npy
+KerasModel: !keras_model "Lenet5/lenet5_quantifi\xE9_8_4/keras_model.keras"
+OutputDir: "Lenet5/lenet5_quantifi\xE9_8_4"
+OutputPredictions: tb_output.npy
+Part: xczu9eg-ffvb1156-2-e
+ProjectName: myproject
+Stamp: 90b6c152
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

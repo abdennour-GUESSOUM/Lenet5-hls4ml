@@ -1,0 +1,239 @@
+
+
+================================================================
+== Vitis HLS Report for 'normalize_array_ap_fixed_16u_array_ap_fixed_34_19_5_3_0_16u_config13_s'
+================================================================
+* Date:           Tue Nov  4 16:14:10 2025
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu9eg-ffvb1156-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  2.790 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        1|        1|  5.000 ns|  5.000 ns|    1|    1|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.76>
+ST_1 : Operation 3 [1/1] (1.82ns)   --->   "%layer11_out_read = read i400 @_ssdm_op_Read.ap_fifo.volatile.i400P0A, i400 %layer11_out" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 3 'read' 'layer11_out_read' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 400> <Depth = 1> <FIFO>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%a = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 50, i32 74" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 4 'partselect' 'a' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%a_1 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 75, i32 99" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 5 'partselect' 'a_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%a_2 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 125, i32 149" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 6 'partselect' 'a_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%a_3 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 225, i32 249" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 7 'partselect' 'a_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%a_4 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 325, i32 349" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 8 'partselect' 'a_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%trunc_ln73 = trunc i400 %layer11_out_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 9 'trunc' 'trunc_ln73' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%tmp_2 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 25, i32 49" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 10 'partselect' 'tmp_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%sext_ln73_2 = sext i25 %a" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 11 'sext' 'sext_ln73_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.94ns)   --->   "%add_ln42_16 = add i26 %sext_ln73_2, i26 2048" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 12 'add' 'add_ln42_16' <Predicate = true> <Delay = 0.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.94> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%sext_ln73_4 = sext i25 %a_1" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 13 'sext' 'sext_ln73_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.94ns)   --->   "%add_ln42_17 = add i26 %sext_ln73_4, i26 20480" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 14 'add' 'add_ln42_17' <Predicate = true> <Delay = 0.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.94> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%tmp_6 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 100, i32 124" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 15 'partselect' 'tmp_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%sext_ln73_8 = sext i25 %a_2" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 16 'sext' 'sext_ln73_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.94ns)   --->   "%add_ln42_18 = add i26 %sext_ln73_8, i26 14336" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 17 'add' 'add_ln42_18' <Predicate = true> <Delay = 0.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.94> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%tmp_9 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 150, i32 174" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 18 'partselect' 'tmp_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%tmp_s = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 175, i32 199" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 19 'partselect' 'tmp_s' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%tmp_1 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 200, i32 224" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 20 'partselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%sext_ln73_16 = sext i25 %a_3" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 21 'sext' 'sext_ln73_16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.94ns)   --->   "%add_ln42_19 = add i26 %sext_ln73_16, i26 67094528" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 22 'add' 'add_ln42_19' <Predicate = true> <Delay = 0.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.94> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%tmp_3 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 250, i32 274" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 23 'partselect' 'tmp_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%tmp_4 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 275, i32 299" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 24 'partselect' 'tmp_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%tmp_5 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 300, i32 324" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 25 'partselect' 'tmp_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_7 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 350, i32 374" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 26 'partselect' 'tmp_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%tmp_8 = partselect i25 @_ssdm_op_PartSelect.i25.i400.i32.i32, i400 %layer11_out_read, i32 375, i32 399" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 27 'partselect' 'tmp_8' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 2.79>
+ST_2 : Operation 28 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i544 %layer13_out, void @empty_9, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 28 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i400 %layer11_out, void @empty_9, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 29 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%specresourcelimit_ln22 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 16, void @empty_8, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_batchnorm_stream.h:22]   --->   Operation 30 'specresourcelimit' 'specresourcelimit_ln22' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%shl_ln = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i25.i2, i25 %trunc_ln73, i2 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 31 'bitconcatenate' 'shl_ln' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%sext_ln42_11 = sext i27 %shl_ln" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 32 'sext' 'sext_ln42_11' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.96ns)   --->   "%add_ln42 = add i28 %sext_ln42_11, i28 18432" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 33 'add' 'add_ln42' <Predicate = true> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%sext_ln42 = sext i28 %add_ln42" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 34 'sext' 'sext_ln42' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "%and_ln = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_2, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 35 'bitconcatenate' 'and_ln' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%sext_ln73 = sext i28 %and_ln" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 36 'sext' 'sext_ln73' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.00ns)   --->   "%and_ln73_1 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_2, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 37 'bitconcatenate' 'and_ln73_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%sext_ln73_1 = sext i26 %and_ln73_1" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 38 'sext' 'sext_ln73_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73 = sub i29 %sext_ln73, i29 %sext_ln73_1" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 39 'sub' 'sub_ln73' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 40 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_1 = add i29 %sub_ln73, i29 12288" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 40 'add' 'add_ln42_1' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 41 [1/1] (0.00ns)   --->   "%sext_ln42_1 = sext i29 %add_ln42_1" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 41 'sext' 'sext_ln42_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 42 [1/1] (0.00ns)   --->   "%shl_ln73_1 = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i25.i2, i25 %a, i2 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 42 'bitconcatenate' 'shl_ln73_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 43 [1/1] (0.00ns)   --->   "%sext_ln73_3 = sext i27 %shl_ln73_1" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 43 'sext' 'sext_ln73_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%sext_ln42_14 = sext i26 %add_ln42_16" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 44 'sext' 'sext_ln42_14' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 45 [1/1] (0.96ns)   --->   "%add_ln42_2 = add i28 %sext_ln42_14, i28 %sext_ln73_3" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 45 'add' 'add_ln42_2' <Predicate = true> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 46 [1/1] (0.00ns)   --->   "%shl_ln73_2 = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i25.i2, i25 %a_1, i2 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 46 'bitconcatenate' 'shl_ln73_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 47 [1/1] (0.00ns)   --->   "%sext_ln73_5 = sext i27 %shl_ln73_2" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 47 'sext' 'sext_ln73_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 48 [1/1] (0.00ns)   --->   "%sext_ln42_15 = sext i26 %add_ln42_17" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 48 'sext' 'sext_ln42_15' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 49 [1/1] (0.96ns)   --->   "%add_ln42_3 = add i28 %sext_ln42_15, i28 %sext_ln73_5" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 49 'add' 'add_ln42_3' <Predicate = true> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 50 [1/1] (0.00ns)   --->   "%sext_ln42_2 = sext i28 %add_ln42_3" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 50 'sext' 'sext_ln42_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 51 [1/1] (0.00ns)   --->   "%and_ln73_2 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_6, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 51 'bitconcatenate' 'and_ln73_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 52 [1/1] (0.00ns)   --->   "%sext_ln73_6 = sext i28 %and_ln73_2" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 52 'sext' 'sext_ln73_6' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 53 [1/1] (0.00ns)   --->   "%and_ln73_3 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_6, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 53 'bitconcatenate' 'and_ln73_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 54 [1/1] (0.00ns)   --->   "%sext_ln73_7 = sext i26 %and_ln73_3" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 54 'sext' 'sext_ln73_7' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 55 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_1 = sub i29 %sext_ln73_6, i29 %sext_ln73_7" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 55 'sub' 'sub_ln73_1' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 56 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_4 = add i29 %sub_ln73_1, i29 32768" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 56 'add' 'add_ln42_4' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 57 [1/1] (0.00ns)   --->   "%sext_ln42_3 = sext i29 %add_ln42_4" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 57 'sext' 'sext_ln42_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 58 [1/1] (0.00ns)   --->   "%shl_ln73_3 = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i25.i2, i25 %a_2, i2 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 58 'bitconcatenate' 'shl_ln73_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 59 [1/1] (0.00ns)   --->   "%sext_ln73_9 = sext i27 %shl_ln73_3" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 59 'sext' 'sext_ln73_9' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 60 [1/1] (0.00ns)   --->   "%sext_ln42_16 = sext i26 %add_ln42_18" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 60 'sext' 'sext_ln42_16' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 61 [1/1] (0.96ns)   --->   "%add_ln42_5 = add i28 %sext_ln42_16, i28 %sext_ln73_9" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 61 'add' 'add_ln42_5' <Predicate = true> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 62 [1/1] (0.00ns)   --->   "%sext_ln42_4 = sext i28 %add_ln42_5" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 62 'sext' 'sext_ln42_4' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 63 [1/1] (0.00ns)   --->   "%and_ln73_4 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_9, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 63 'bitconcatenate' 'and_ln73_4' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 64 [1/1] (0.00ns)   --->   "%sext_ln73_10 = sext i28 %and_ln73_4" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 64 'sext' 'sext_ln73_10' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 65 [1/1] (0.00ns)   --->   "%and_ln73_5 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_9, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 65 'bitconcatenate' 'and_ln73_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 66 [1/1] (0.00ns)   --->   "%sext_ln73_11 = sext i26 %and_ln73_5" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 66 'sext' 'sext_ln73_11' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 67 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_2 = sub i29 %sext_ln73_10, i29 %sext_ln73_11" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 67 'sub' 'sub_ln73_2' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 68 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_6 = add i29 %sub_ln73_2, i29 536858624" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 68 'add' 'add_ln42_6' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%sext_ln42_5 = sext i29 %add_ln42_6" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 69 'sext' 'sext_ln42_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 70 [1/1] (0.00ns)   --->   "%and_ln73_6 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_s, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 70 'bitconcatenate' 'and_ln73_6' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 71 [1/1] (0.00ns)   --->   "%sext_ln73_12 = sext i28 %and_ln73_6" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 71 'sext' 'sext_ln73_12' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 72 [1/1] (0.00ns)   --->   "%and_ln73_7 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_s, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 72 'bitconcatenate' 'and_ln73_7' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 73 [1/1] (0.00ns)   --->   "%sext_ln73_13 = sext i26 %and_ln73_7" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 73 'sext' 'sext_ln73_13' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 74 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_3 = sub i29 %sext_ln73_12, i29 %sext_ln73_13" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 74 'sub' 'sub_ln73_3' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 75 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_7 = add i29 %sub_ln73_3, i29 536864768" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 75 'add' 'add_ln42_7' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 76 [1/1] (0.00ns)   --->   "%sext_ln42_6 = sext i29 %add_ln42_7" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 76 'sext' 'sext_ln42_6' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 77 [1/1] (0.00ns)   --->   "%and_ln73_8 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_1, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 77 'bitconcatenate' 'and_ln73_8' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 78 [1/1] (0.00ns)   --->   "%sext_ln73_14 = sext i28 %and_ln73_8" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 78 'sext' 'sext_ln73_14' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 79 [1/1] (0.00ns)   --->   "%and_ln73_9 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_1, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 79 'bitconcatenate' 'and_ln73_9' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 80 [1/1] (0.00ns)   --->   "%sext_ln73_15 = sext i26 %and_ln73_9" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 80 'sext' 'sext_ln73_15' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 81 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_4 = sub i29 %sext_ln73_14, i29 %sext_ln73_15" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 81 'sub' 'sub_ln73_4' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 82 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_8 = add i29 %sub_ln73_4, i29 536852480" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 82 'add' 'add_ln42_8' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 83 [1/1] (0.00ns)   --->   "%sext_ln42_7 = sext i29 %add_ln42_8" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 83 'sext' 'sext_ln42_7' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 84 [1/1] (0.00ns)   --->   "%shl_ln73_4 = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i25.i2, i25 %a_3, i2 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 84 'bitconcatenate' 'shl_ln73_4' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 85 [1/1] (0.00ns)   --->   "%sext_ln73_17 = sext i27 %shl_ln73_4" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 85 'sext' 'sext_ln73_17' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 86 [1/1] (0.00ns)   --->   "%sext_ln42_17 = sext i26 %add_ln42_19" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 86 'sext' 'sext_ln42_17' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 87 [1/1] (0.96ns)   --->   "%add_ln42_9 = add i28 %sext_ln42_17, i28 %sext_ln73_17" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 87 'add' 'add_ln42_9' <Predicate = true> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 88 [1/1] (0.00ns)   --->   "%sext_ln42_8 = sext i28 %add_ln42_9" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 88 'sext' 'sext_ln42_8' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 89 [1/1] (0.00ns)   --->   "%and_ln73_s = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i25.i2, i25 %tmp_3, i2 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 89 'bitconcatenate' 'and_ln73_s' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 90 [1/1] (0.00ns)   --->   "%sext_ln42_12 = sext i27 %and_ln73_s" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 90 'sext' 'sext_ln42_12' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 91 [1/1] (0.96ns)   --->   "%add_ln42_10 = add i28 %sext_ln42_12, i28 20480" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 91 'add' 'add_ln42_10' <Predicate = true> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 92 [1/1] (0.00ns)   --->   "%and_ln73_10 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_4, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 92 'bitconcatenate' 'and_ln73_10' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 93 [1/1] (0.00ns)   --->   "%sext_ln73_18 = sext i28 %and_ln73_10" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 93 'sext' 'sext_ln73_18' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 94 [1/1] (0.00ns)   --->   "%and_ln73_11 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_4, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 94 'bitconcatenate' 'and_ln73_11' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 95 [1/1] (0.00ns)   --->   "%sext_ln73_19 = sext i26 %and_ln73_11" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 95 'sext' 'sext_ln73_19' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 96 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_5 = sub i29 %sext_ln73_18, i29 %sext_ln73_19" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 96 'sub' 'sub_ln73_5' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 97 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_11 = add i29 %sub_ln73_5, i29 12288" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 97 'add' 'add_ln42_11' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 98 [1/1] (0.00ns)   --->   "%sext_ln42_9 = sext i29 %add_ln42_11" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 98 'sext' 'sext_ln42_9' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 99 [1/1] (0.00ns)   --->   "%and_ln73_12 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_5, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 99 'bitconcatenate' 'and_ln73_12' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 100 [1/1] (0.00ns)   --->   "%sext_ln73_20 = sext i28 %and_ln73_12" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 100 'sext' 'sext_ln73_20' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 101 [1/1] (0.00ns)   --->   "%and_ln73_13 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_5, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 101 'bitconcatenate' 'and_ln73_13' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 102 [1/1] (0.00ns)   --->   "%sext_ln73_21 = sext i26 %and_ln73_13" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 102 'sext' 'sext_ln73_21' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 103 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_6 = sub i29 %sext_ln73_20, i29 %sext_ln73_21" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 103 'sub' 'sub_ln73_6' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 104 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_12 = add i29 %sub_ln73_6, i29 536864768" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 104 'add' 'add_ln42_12' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 105 [1/1] (0.00ns)   --->   "%sext_ln73_22 = sext i25 %a_4" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 105 'sext' 'sext_ln73_22' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 106 [1/1] (0.00ns)   --->   "%shl_ln73_5 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %a_4, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 106 'bitconcatenate' 'shl_ln73_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 107 [1/1] (0.00ns)   --->   "%sext_ln73_23 = sext i28 %shl_ln73_5" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 107 'sext' 'sext_ln73_23' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 108 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_7 = sub i29 %sext_ln73_23, i29 %sext_ln73_22" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 108 'sub' 'sub_ln73_7' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 109 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_13 = add i29 %sub_ln73_7, i29 36864" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 109 'add' 'add_ln42_13' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 110 [1/1] (0.00ns)   --->   "%sext_ln42_10 = sext i29 %add_ln42_13" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 110 'sext' 'sext_ln42_10' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 111 [1/1] (0.00ns)   --->   "%and_ln73_14 = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i25.i2, i25 %tmp_7, i2 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 111 'bitconcatenate' 'and_ln73_14' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 112 [1/1] (0.00ns)   --->   "%sext_ln42_13 = sext i27 %and_ln73_14" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 112 'sext' 'sext_ln42_13' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 113 [1/1] (0.96ns)   --->   "%add_ln42_14 = add i28 %sext_ln42_13, i28 268421120" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 113 'add' 'add_ln42_14' <Predicate = true> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 114 [1/1] (0.00ns)   --->   "%and_ln73_15 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i25.i3, i25 %tmp_8, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 114 'bitconcatenate' 'and_ln73_15' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 115 [1/1] (0.00ns)   --->   "%sext_ln73_24 = sext i28 %and_ln73_15" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 115 'sext' 'sext_ln73_24' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 116 [1/1] (0.00ns)   --->   "%and_ln73_16 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i25.i1, i25 %tmp_8, i1 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 116 'bitconcatenate' 'and_ln73_16' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 117 [1/1] (0.00ns)   --->   "%sext_ln73_25 = sext i26 %and_ln73_16" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 117 'sext' 'sext_ln73_25' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 118 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73_8 = sub i29 %sext_ln73_24, i29 %sext_ln73_25" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 118 'sub' 'sub_ln73_8' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 119 [1/1] (0.72ns) (root node of TernaryAdder)   --->   "%add_ln42_15 = add i29 %sub_ln73_8, i29 20480" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 119 'add' 'add_ln42_15' <Predicate = true> <Delay = 0.72> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.36> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 120 [1/1] (0.00ns)   --->   "%sext_ln46 = sext i28 %add_ln42_2" [firmware/nnet_utils/nnet_batchnorm_stream.h:46]   --->   Operation 120 'sext' 'sext_ln46' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 121 [1/1] (0.00ns)   --->   "%sext_ln46_1 = sext i28 %add_ln42_10" [firmware/nnet_utils/nnet_batchnorm_stream.h:46]   --->   Operation 121 'sext' 'sext_ln46_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 122 [1/1] (0.00ns)   --->   "%sext_ln46_2 = sext i29 %add_ln42_12" [firmware/nnet_utils/nnet_batchnorm_stream.h:46]   --->   Operation 122 'sext' 'sext_ln46_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 123 [1/1] (0.00ns)   --->   "%sext_ln46_3 = sext i28 %add_ln42_14" [firmware/nnet_utils/nnet_batchnorm_stream.h:46]   --->   Operation 123 'sext' 'sext_ln46_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 124 [1/1] (0.00ns)   --->   "%tmp = bitconcatenate i539 @_ssdm_op_BitConcatenate.i539.i29.i34.i34.i34.i34.i34.i34.i34.i34.i34.i34.i34.i34.i34.i34.i34, i29 %add_ln42_15, i34 %sext_ln46_3, i34 %sext_ln42_10, i34 %sext_ln46_2, i34 %sext_ln42_9, i34 %sext_ln46_1, i34 %sext_ln42_8, i34 %sext_ln42_7, i34 %sext_ln42_6, i34 %sext_ln42_5, i34 %sext_ln42_4, i34 %sext_ln42_3, i34 %sext_ln42_2, i34 %sext_ln46, i34 %sext_ln42_1, i34 %sext_ln42" [firmware/nnet_utils/nnet_batchnorm_stream.h:46]   --->   Operation 124 'bitconcatenate' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 125 [1/1] (0.00ns)   --->   "%sext_ln46_4 = sext i539 %tmp" [firmware/nnet_utils/nnet_batchnorm_stream.h:46]   --->   Operation 125 'sext' 'sext_ln46_4' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 126 [1/1] (1.82ns)   --->   "%write_ln46 = write void @_ssdm_op_Write.ap_fifo.volatile.i544P0A, i544 %layer13_out, i544 %sext_ln46_4" [firmware/nnet_utils/nnet_batchnorm_stream.h:46]   --->   Operation 126 'write' 'write_ln46' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 544> <Depth = 1> <FIFO>
+ST_2 : Operation 127 [1/1] (0.00ns)   --->   "%ret_ln48 = ret" [firmware/nnet_utils/nnet_batchnorm_stream.h:48]   --->   Operation 127 'ret' 'ret_ln48' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5.000ns, clock uncertainty: 1.350ns.
+
+ <State 1>: 2.770ns
+The critical path consists of the following:
+	fifo read operation ('layer11_out_read', firmware/nnet_utils/nnet_batchnorm_stream.h:28) on port 'layer11_out' (firmware/nnet_utils/nnet_batchnorm_stream.h:28) [6]  (1.825 ns)
+	'add' operation 26 bit ('add_ln42_16', firmware/nnet_utils/nnet_batchnorm_stream.h:42) [28]  (0.945 ns)
+
+ <State 2>: 2.790ns
+The critical path consists of the following:
+	'add' operation 28 bit ('add_ln42', firmware/nnet_utils/nnet_batchnorm_stream.h:42) [15]  (0.965 ns)
+	fifo write operation ('write_ln46', firmware/nnet_utils/nnet_batchnorm_stream.h:46) on port 'layer13_out' (firmware/nnet_utils/nnet_batchnorm_stream.h:46) [126]  (1.825 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

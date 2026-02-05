@@ -1,0 +1,366 @@
+<stg><name>conv_2d_cl<array<ap_fixed,1u>,array<ap_fixed<22,14,5,3,0>,6u>,config2></name>
+
+
+<trans_list>
+
+<trans id="42" from="1" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="37" from="2" to="3">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="38" from="3" to="4">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="39" from="4" to="5">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="2">
+
+<operation id="8" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="36" bw="10" op_0_bw="32">
+<![CDATA[
+entry:0 %indvar_flatten = alloca i32 1
+
+]]></Node>
+<StgValue><ssdm name="indvar_flatten"/></StgValue>
+</operation>
+
+<operation id="9" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="37" bw="0" op_0_bw="0" op_1_bw="132" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i132 %layer2_out, void @empty_9, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="10" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="38" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %input_layer, void @empty_15, i32 1, i32 1, void @empty_10, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="11" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="39" bw="0" op_0_bw="10" op_1_bw="10">
+<![CDATA[
+entry:3 %store_ln0 = store i10 0, i10 %indvar_flatten
+
+]]></Node>
+<StgValue><ssdm name="store_ln0"/></StgValue>
+</operation>
+
+<operation id="12" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="40" bw="0" op_0_bw="0">
+<![CDATA[
+entry:4 %br_ln24 = br void %for.body12.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln24"/></StgValue>
+</operation>
+
+<operation id="13" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="42" bw="10" op_0_bw="10" op_1_bw="0">
+<![CDATA[
+for.body12.i:0 %indvar_flatten_load = load i10 %indvar_flatten
+
+]]></Node>
+<StgValue><ssdm name="indvar_flatten_load"/></StgValue>
+</operation>
+
+<operation id="14" st_id="1" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="43" bw="1" op_0_bw="10" op_1_bw="10">
+<![CDATA[
+for.body12.i:1 %icmp_ln24 = icmp_eq  i10 %indvar_flatten_load, i10 784
+
+]]></Node>
+<StgValue><ssdm name="icmp_ln24"/></StgValue>
+</operation>
+
+<operation id="15" st_id="1" stage="1" lat="1">
+<core>Adder</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="44" bw="10" op_0_bw="10" op_1_bw="10">
+<![CDATA[
+for.body12.i:2 %add_ln24 = add i10 %indvar_flatten_load, i10 1
+
+]]></Node>
+<StgValue><ssdm name="add_ln24"/></StgValue>
+</operation>
+
+<operation id="16" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="45" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+for.body12.i:3 %br_ln24 = br i1 %icmp_ln24, void %for.cond.cleanup11.i, void %_ZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9ap_o_mode3ELi0EELj1EEENS1_IS2_ILi22ELi14ELS3_5ELS4_3ELi0EELj6EEE7config2EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tE.33.exit
+
+]]></Node>
+<StgValue><ssdm name="br_ln24"/></StgValue>
+</operation>
+
+<operation id="17" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln24" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="52" bw="0" op_0_bw="10" op_1_bw="10" op_2_bw="0" op_3_bw="0">
+<![CDATA[
+for.cond.cleanup11.i:5 %store_ln24 = store i10 %add_ln24, i10 %indvar_flatten
+
+]]></Node>
+<StgValue><ssdm name="store_ln24"/></StgValue>
+</operation>
+</state>
+
+<state id="2" st_id="3">
+
+<operation id="18" st_id="2" stage="1" lat="1">
+<core>axis</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln24" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="50" bw="8" op_0_bw="8" op_1_bw="8">
+<![CDATA[
+for.cond.cleanup11.i:3 %input_layer_read = read i8 @_ssdm_op_Read.axis.volatile.i8P128A, i8 %input_layer
+
+]]></Node>
+<StgValue><ssdm name="input_layer_read"/></StgValue>
+</operation>
+
+<operation id="19" st_id="2" stage="4" lat="4">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln24" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="51" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="132" op_3_bw="8" op_4_bw="8" op_5_bw="8" op_6_bw="8" op_7_bw="8" op_8_bw="8" op_9_bw="8" op_10_bw="8" op_11_bw="8" op_12_bw="8" op_13_bw="8" op_14_bw="8" op_15_bw="8" op_16_bw="8" op_17_bw="8" op_18_bw="8" op_19_bw="8" op_20_bw="8" op_21_bw="8" op_22_bw="8" op_23_bw="8" op_24_bw="8" op_25_bw="8" op_26_bw="8" op_27_bw="8" op_28_bw="8" op_29_bw="8" op_30_bw="8" op_31_bw="8" op_32_bw="32" op_33_bw="32" op_34_bw="32" op_35_bw="32">
+<![CDATA[
+for.cond.cleanup11.i:4 %call_ln31 = call void @compute_output_buffer_2d<array,array<ap_fixed<22,14,5,3,0>,6u>,config2>, i8 %input_layer_read, i132 %layer2_out, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_13, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_14, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_9, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_4, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_12, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_2, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_11, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_1, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_10, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_3, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_2, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_1, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer, i32 %sX_2, i32 %sY_2, i32 %pY_2, i32 %pX_2
+
+]]></Node>
+<StgValue><ssdm name="call_ln31"/></StgValue>
+</operation>
+
+<operation id="27" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln24" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="55" bw="0">
+<![CDATA[
+_ZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9ap_o_mode3ELi0EELj1EEENS1_IS2_ILi22ELi14ELS3_5ELS4_3ELi0EELj6EEE7config2EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tE.33.exit:0 %ret_ln79 = ret
+
+]]></Node>
+<StgValue><ssdm name="ret_ln79"/></StgValue>
+</operation>
+</state>
+
+<state id="3" st_id="4">
+
+<operation id="20" st_id="3" stage="3" lat="4">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln24" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="51" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="132" op_3_bw="8" op_4_bw="8" op_5_bw="8" op_6_bw="8" op_7_bw="8" op_8_bw="8" op_9_bw="8" op_10_bw="8" op_11_bw="8" op_12_bw="8" op_13_bw="8" op_14_bw="8" op_15_bw="8" op_16_bw="8" op_17_bw="8" op_18_bw="8" op_19_bw="8" op_20_bw="8" op_21_bw="8" op_22_bw="8" op_23_bw="8" op_24_bw="8" op_25_bw="8" op_26_bw="8" op_27_bw="8" op_28_bw="8" op_29_bw="8" op_30_bw="8" op_31_bw="8" op_32_bw="32" op_33_bw="32" op_34_bw="32" op_35_bw="32">
+<![CDATA[
+for.cond.cleanup11.i:4 %call_ln31 = call void @compute_output_buffer_2d<array,array<ap_fixed<22,14,5,3,0>,6u>,config2>, i8 %input_layer_read, i132 %layer2_out, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_13, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_14, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_9, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_4, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_12, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_2, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_11, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_1, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_10, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_3, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_2, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_1, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer, i32 %sX_2, i32 %sY_2, i32 %pY_2, i32 %pX_2
+
+]]></Node>
+<StgValue><ssdm name="call_ln31"/></StgValue>
+</operation>
+</state>
+
+<state id="4" st_id="5">
+
+<operation id="21" st_id="4" stage="2" lat="4">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln24" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="51" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="132" op_3_bw="8" op_4_bw="8" op_5_bw="8" op_6_bw="8" op_7_bw="8" op_8_bw="8" op_9_bw="8" op_10_bw="8" op_11_bw="8" op_12_bw="8" op_13_bw="8" op_14_bw="8" op_15_bw="8" op_16_bw="8" op_17_bw="8" op_18_bw="8" op_19_bw="8" op_20_bw="8" op_21_bw="8" op_22_bw="8" op_23_bw="8" op_24_bw="8" op_25_bw="8" op_26_bw="8" op_27_bw="8" op_28_bw="8" op_29_bw="8" op_30_bw="8" op_31_bw="8" op_32_bw="32" op_33_bw="32" op_34_bw="32" op_35_bw="32">
+<![CDATA[
+for.cond.cleanup11.i:4 %call_ln31 = call void @compute_output_buffer_2d<array,array<ap_fixed<22,14,5,3,0>,6u>,config2>, i8 %input_layer_read, i132 %layer2_out, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_13, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_14, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_9, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_4, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_12, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_2, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_11, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_1, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_10, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_3, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_2, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_1, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer, i32 %sX_2, i32 %sY_2, i32 %pY_2, i32 %pX_2
+
+]]></Node>
+<StgValue><ssdm name="call_ln31"/></StgValue>
+</operation>
+</state>
+
+<state id="5" st_id="6">
+
+<operation id="22" st_id="5" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="47" bw="0" op_0_bw="0" op_1_bw="0">
+<![CDATA[
+for.cond.cleanup11.i:0 %specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @ReadInputHeight_ReadInputWidth_str
+
+]]></Node>
+<StgValue><ssdm name="specloopname_ln0"/></StgValue>
+</operation>
+
+<operation id="23" st_id="5" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="48" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="64" op_3_bw="64">
+<![CDATA[
+for.cond.cleanup11.i:1 %speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 784, i64 784, i64 784
+
+]]></Node>
+<StgValue><ssdm name="speclooptripcount_ln0"/></StgValue>
+</operation>
+
+<operation id="24" st_id="5" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="49" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
+<![CDATA[
+for.cond.cleanup11.i:2 %specpipeline_ln28 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1
+
+]]></Node>
+<StgValue><ssdm name="specpipeline_ln28"/></StgValue>
+</operation>
+
+<operation id="25" st_id="5" stage="1" lat="4">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="51" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="132" op_3_bw="8" op_4_bw="8" op_5_bw="8" op_6_bw="8" op_7_bw="8" op_8_bw="8" op_9_bw="8" op_10_bw="8" op_11_bw="8" op_12_bw="8" op_13_bw="8" op_14_bw="8" op_15_bw="8" op_16_bw="8" op_17_bw="8" op_18_bw="8" op_19_bw="8" op_20_bw="8" op_21_bw="8" op_22_bw="8" op_23_bw="8" op_24_bw="8" op_25_bw="8" op_26_bw="8" op_27_bw="8" op_28_bw="8" op_29_bw="8" op_30_bw="8" op_31_bw="8" op_32_bw="32" op_33_bw="32" op_34_bw="32" op_35_bw="32">
+<![CDATA[
+for.cond.cleanup11.i:4 %call_ln31 = call void @compute_output_buffer_2d<array,array<ap_fixed<22,14,5,3,0>,6u>,config2>, i8 %input_layer_read, i132 %layer2_out, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_13, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_14, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_9, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_4, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_12, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_2, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_11, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_1, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_10, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi4EL9ap_q_mode5EL9a, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_3, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_2, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer_1, i8 %void_conv_2d_buffer_latency_cl_stream_stream_weight_t_bias_t_line_buffer, i32 %sX_2, i32 %sY_2, i32 %pY_2, i32 %pX_2
+
+]]></Node>
+<StgValue><ssdm name="call_ln31"/></StgValue>
+</operation>
+
+<operation id="26" st_id="5" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="53" bw="0" op_0_bw="0">
+<![CDATA[
+for.cond.cleanup11.i:6 %br_ln26 = br void %for.body12.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln26"/></StgValue>
+</operation>
+</state>
+</state_list>
+
+
+<ports>
+</ports>
+
+
+<dataflows>
+</dataflows>
+
+
+</stg>

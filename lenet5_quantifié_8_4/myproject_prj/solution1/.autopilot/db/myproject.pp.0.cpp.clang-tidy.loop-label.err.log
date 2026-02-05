@@ -1,0 +1,5 @@
+5 warnings and 3 errors generated.
+Error while processing /home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.
+clang-tidy applied 99 of 99 suggested fixes.
+Suppressed 253 warnings (248 in non-user code, 5 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

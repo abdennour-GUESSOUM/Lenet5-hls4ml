@@ -1,0 +1,493 @@
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'abdennour.guessoum' on host 'info-m15-010.univ-brest.fr' (Linux_x86_64 version 6.1.0-18-amd64) on Tue Nov 04 16:14:52 CET 2025
+INFO: [HLS 200-10] On os Debian GNU/Linux 12 (bookworm)
+INFO: [HLS 200-10] In directory '/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script '/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/cosim.tcl'
+INFO: [HLS 200-1510] Running: source /home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/cosim.tcl
+INFO: [HLS 200-1510] Running: open_project myproject_prj 
+INFO: [HLS 200-10] Opening project '/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj'.
+INFO: [HLS 200-1510] Running: set_top myproject 
+INFO: [HLS 200-1510] Running: add_files firmware/myproject.cpp -cflags -std=c++0x 
+INFO: [HLS 200-10] Adding design file 'firmware/myproject.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb tb_data -cflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'tb_data' to the project
+INFO: [HLS 200-1510] Running: add_files -tb firmware/weights -cflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'firmware/weights' to the project
+INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x -Wno-unknown-pragmas -csimflags -DRTL_SIM=1 
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1.35ns.
+INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_compile -complex-mul-dsp=0
+INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=80
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1464] Running solution command: config_schedule -enable_dsp_full_reg=0
+INFO: [HLS 200-1464] Running solution command: config_cosim -tool=xsim
+INFO: [HLS 200-1510] Running: set_part xczu9eg-ffvb1156-2-e 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: create_clock -period 5 -name default 
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 80 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: config_schedule -enable_dsp_full_reg=0 
+INFO: [HLS 200-1510] Running: config_cosim -tool xsim 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 27% 
+INFO: [HLS 200-1510] Running: source ./myproject_prj/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name myproject myproject 
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++"
+   Compiling apatb_myproject.cpp
+   Compiling apatb_myproject_util.cpp
+   Compiling myproject.cpp_pre.cpp.tb.cpp
+   Compiling myproject_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_myproject_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Processing input 0
+Predictions
+1.85547e-06 6.01003e-06 2.98436e-05 3.94977e-05 1.18709e-05 5.65142e-06 2.71158e-06 0.999892 4.14275e-06 6.22508e-06 
+Quantized predictions
+0 0 0 0 0 0 0 1 0 0 
+Processing input 1
+Predictions
+6.15865e-06 1.33927e-05 0.999906 3.26973e-05 1.57397e-06 1.32995e-06 2.84592e-06 1.41365e-06 3.17222e-05 2.80727e-06 
+Quantized predictions
+0 0 1 0 0 0 0 0 0 0 
+Processing input 2
+Predictions
+1.07168e-05 0.999172 0.00054459 4.50246e-06 1.61744e-05 9.23983e-05 3.81058e-05 4.63928e-05 7.25242e-05 2.48164e-06 
+Quantized predictions
+0 1 0 0 0 0 0 0 0 0 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+
+========================================
+Accuracy: 100%
+========================================
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 784
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_16 -L floating_point_v7_0_21 --lib ieee_proposed=./ieee_proposed -s myproject 
+Multi-threading is on. Using 18 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_6u_hard_tanh_config4_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_6u_hard_tanh_config4_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_pooling2d_cl_array_ap_fixed_6u_array_ap_fixed_8_1_4_0_0_6u_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_pooling2d_cl_array_ap_fixed_6u_array_ap_fixed_8_1_4_0_0_6u_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_4_5_3_0_1u_config2_s_void_conv_2d_buffer_lbkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_4_5_3_0_1u_config2_s_void_conv_2d_buffer_lbkb_core
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_4_5_3_0_1u_config2_s_void_conv_2d_buffer_lbkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_8s_6ns_14_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_8s_6ns_14_1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_softmax_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_softmax_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_8s_5ns_13_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_8s_5ns_13_1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_softmax_stable_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_softmax_stable_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_deadlock_report_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_report_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_25_14_5_3_0_16u_config11_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_25_14_5_3_0_16u_config11_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_25_14_5_3_0_16u_config11_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w132_d576_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w132_d576_A
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w132_d576_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_21s_6ns_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_21s_6ns_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w128_d1_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w128_d1_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w128_d1_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_30_15_5_3_0_16u_config14jc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_30_15_5_3_0_16u_config14jc
+INFO: [VRFC 10-311] analyzing module myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_30_15_5_3_0_16u_config14jc_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_latency_wrapper_ap_fixed_ap_fixed_21_10_5_3_0_config19_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_wrapper_ap_fixed_ap_fixed_21_10_5_3_0_config19_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_deadlock_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config8_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config8_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_pooling2d_cl_array_ap_fixed_6u_array_ap_fixed_8_1_4_0_0_6u_config5_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_pooling2d_cl_array_ap_fixed_6u_array_ap_fixed_8_1_4_0_0_6u_config5_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_pooling2d_cl_array_ap_fixed_6u_array_ap_fixed_8_1_4_0_0_6u_config5_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_25_14_5_3_0_16u_config61iI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_25_14_5_3_0_16u_config61iI
+INFO: [VRFC 10-311] analyzing module myproject_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_25_14_5_3_0_16u_config61iI_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config5_s_void_pooling2d_cl_strfYi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config5_s_void_pooling2d_cl_strfYi_core
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config5_s_void_pooling2d_cl_strfYi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_8s_6s_14_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_8s_6s_14_1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_21s_6ns_27_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_21s_6ns_27_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_array_array_ap_fixed_25_14_5_3_0_16u_config11_Pipeline_DataPrepare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_array_array_ap_fixed_25_14_5_3_0_16u_config11_Pipeline_DataPrepare
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config18_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config18_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_30_15_5_3_0_16u_config17_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_normalize_array_ap_fixed_16u_array_ap_fixed_30_15_5_3_0_16u_config17_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_16u_config15_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_16u_config15_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_16u_config15_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w48_d144_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w48_d144_A
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w48_d144_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config6_s_p_ZZN4nnet25conv_2d_blbW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config6_s_p_ZZN4nnet25conv_2d_blbW_core
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config6_s_p_ZZN4nnet25conv_2d_blbW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_10u_config19_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_10u_config19_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_10u_config19_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_8s_6ns_13_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_8s_6ns_13_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config6_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_6u_config6_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w480_d1_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w480_d1_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w480_d1_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_16u_config9_s_void_pooling2d_cl_stJfO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_16u_config9_s_void_pooling2d_cl_stJfO_core
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_16u_config9_s_void_pooling2d_cl_stJfO
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_pooling2d_cl_array_ap_fixed_16u_array_ap_fixed_8_1_4_0_0_16u_config9_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_pooling2d_cl_array_ap_fixed_16u_array_ap_fixed_8_1_4_0_0_16u_config9_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_8s_6s_13_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_8s_6s_13_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_34_19_5_3_0_16u_config13_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_normalize_array_ap_fixed_16u_array_ap_fixed_34_19_5_3_0_16u_config13_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w48_d576_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w48_d576_A
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w48_d576_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_25_14_5_3_0_16u_config6_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_25_14_5_3_0_16u_config6_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_latency_ap_fixed_8_1_4_0_0_ap_fixed_25_14_5_3_0_config6_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_ap_fixed_8_1_4_0_0_ap_fixed_25_14_5_3_0_config6_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_10u_config19_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_10u_config19_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_axi_s_layer21_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_layer21_out
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_latency_wrapper_ap_fixed_ap_fixed_21_10_5_3_0_config15_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_wrapper_ap_fixed_ap_fixed_21_10_5_3_0_config15_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_array_ap_fixed_16u_array_ap_fixed_25_14_5_3_0_16u_config11_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_array_ap_fixed_16u_array_ap_fixed_25_14_5_3_0_16u_config11_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_16u_config15_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_16u_config15_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config18_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config18_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config18_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_25_14_5_3_0_16u_config6_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_compute_output_buffer_2d_array_array_ap_fixed_25_14_5_3_0_16u_config6_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config14_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config14_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_22_14_5_3_0_6u_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_compute_output_buffer_2d_array_array_ap_fixed_22_14_5_3_0_6u_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_deadlock_idx0_monitor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx0_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_4_5_3_0_1u_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_4_5_3_0_1u_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_latency_wrapper_ap_fixed_ap_fixed_25_14_5_3_0_config11_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_wrapper_ap_fixed_ap_fixed_25_14_5_3_0_config11_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w544_d1_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w544_d1_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w544_d1_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_flow_control_loop_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_flow_control_loop_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_6u_hard_tanh_config4_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_6u_hard_tanh_config4_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_6u_hard_tanh_config4_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config14_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config14_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config14_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w210_d1_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w210_d1_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w210_d1_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_pooling2d_cl_array_ap_fixed_16u_array_ap_fixed_8_1_4_0_0_16u_config2iS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_pooling2d_cl_array_ap_fixed_16u_array_ap_fixed_8_1_4_0_0_16u_config2iS
+INFO: [VRFC 10-311] analyzing module myproject_start_for_pooling2d_cl_array_ap_fixed_16u_array_ap_fixed_8_1_4_0_0_16u_config2iS_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w400_d1_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w400_d1_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w400_d1_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_softmax_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_softmax_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_softmax_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_deadlock_kernel_monitor_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_kernel_monitor_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w128_d16_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w128_d16_A
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w128_d16_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_18s_17ns_24_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_18s_17ns_24_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w128_d64_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w128_d64_A
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w128_d64_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_deadlock_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detect_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config8_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config8_U0
+INFO: [VRFC 10-311] analyzing module myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config8_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w400_d64_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w400_d64_A
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w400_d64_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_axi_s_input_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_input_layer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_9s_5s_13_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_9s_5s_13_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_softmax_stable_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s_exp_tablZio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_softmax_stable_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s_exp_tablZio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_softmax_stable_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s_invert_t0iy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_softmax_stable_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_s_invert_t0iy
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_regslice_both.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_regslice_both
+INFO: [VRFC 10-311] analyzing module myproject_regslice_both_w1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_19_5_3_0_16u_config13i2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_19_5_3_0_16u_config13i2
+INFO: [VRFC 10-311] analyzing module myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_19_5_3_0_16u_config13i2_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_22_14_5_3_0_6u_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_22_14_5_3_0_6u_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w336_d1_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w336_d1_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w336_d1_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_dense_latency_ap_fixed_8_4_5_3_0_ap_fixed_22_14_5_3_0_config2_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_ap_fixed_8_4_5_3_0_ap_fixed_22_14_5_3_0_config2_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_mul_8s_5s_13_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_8s_5s_13_1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_16u_config9_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_shift_line_buffer_array_ap_fixed_8_1_4_0_0_16u_config9_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w400_d1_S.v:49]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w544_d1_S.v:49]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w128_d1_S.v:49]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w336_d1_S.v:49]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w480_d1_S.v:49]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_fifo_w210_d1_S.v:49]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_6u_hard_tanh_config4_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_pooling2d_cl_array_ap_fixed_6u_array_ap_fixed_8_1_4_0_0_6u_config5_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_25_14_5_3_0_16u_config61iI.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config8_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_pooling2d_cl_array_ap_fixed_16u_array_ap_fixed_8_1_4_0_0_16u_config2iS.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_25_14_5_3_0_16u_config11_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_19_5_3_0_16u_config13i2.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config14_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_16u_config15_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_30_15_5_3_0_16u_config14jc.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_hard_tanh_array_array_ap_fixed_8_1_4_0_0_16u_hard_tanh_config18_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_21_10_5_3_0_10u_config19_U0.v:46]
+WARNING: [VRFC 10-5021] port 'reset' is not connected on this instance [/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject_start_for_softmax_array_array_ap_fixed_8_4_5_3_0_10u_softmax_config21_U0.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_mul_8s_5s_13_1_0(NUM_S...
+Compiling module xil_defaultlib.myproject_mul_8s_6s_14_1_0(NUM_S...
+Compiling module xil_defaultlib.myproject_mul_8s_6ns_14_1_0(NUM_...
+Compiling module xil_defaultlib.myproject_mul_8s_5ns_13_1_0(NUM_...
+Compiling module xil_defaultlib.myproject_dense_latency_ap_fixed...
+Compiling module xil_defaultlib.myproject_compute_output_buffer_...
+Compiling module xil_defaultlib.myproject_flow_control_loop_pipe
+Compiling module xil_defaultlib.myproject_regslice_both(DataWidt...
+Compiling module xil_defaultlib.myproject_conv_2d_cl_array_ap_fi...
+Compiling module xil_defaultlib.myproject_hard_tanh_array_array_...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_pooling2d_cl_array_ap_...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_dense_latency_ap_fixed...
+Compiling module xil_defaultlib.myproject_compute_output_buffer_...
+Compiling module xil_defaultlib.myproject_conv_2d_cl_array_ap_fi...
+Compiling module xil_defaultlib.myproject_hard_tanh_array_array_...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_shift_line_buffer_arra...
+Compiling module xil_defaultlib.myproject_pooling2d_cl_array_ap_...
+Compiling module xil_defaultlib.myproject_flow_control_loop_pipe...
+Compiling module xil_defaultlib.myproject_dense_array_array_ap_f...
+Compiling module xil_defaultlib.myproject_dense_latency_wrapper_...
+Compiling module xil_defaultlib.myproject_dense_array_ap_fixed_1...
+Compiling module xil_defaultlib.myproject_normalize_array_ap_fix...
+Compiling module xil_defaultlib.myproject_hard_tanh_array_array_...
+Compiling module xil_defaultlib.myproject_mul_9s_5s_13_1_1(NUM_S...
+Compiling module xil_defaultlib.myproject_dense_latency_wrapper_...
+Compiling module xil_defaultlib.myproject_dense_array_ap_fixed_1...
+Compiling module xil_defaultlib.myproject_mul_21s_6ns_26_1_1(NUM...
+Compiling module xil_defaultlib.myproject_mul_21s_6ns_27_1_1(NUM...
+Compiling module xil_defaultlib.myproject_normalize_array_ap_fix...
+Compiling module xil_defaultlib.myproject_hard_tanh_array_array_...
+Compiling module xil_defaultlib.myproject_mul_8s_6ns_13_1_1(NUM_...
+Compiling module xil_defaultlib.myproject_mul_8s_6s_13_1_1(NUM_S...
+Compiling module xil_defaultlib.myproject_dense_latency_wrapper_...
+Compiling module xil_defaultlib.myproject_dense_array_ap_fixed_1...
+Compiling module xil_defaultlib.myproject_softmax_stable_array_a...
+Compiling module xil_defaultlib.myproject_softmax_stable_array_a...
+Compiling module xil_defaultlib.myproject_mul_18s_17ns_24_1_1(NU...
+Compiling module xil_defaultlib.myproject_softmax_stable_array_a...
+Compiling module xil_defaultlib.myproject_regslice_both(DataWidt...
+Compiling module xil_defaultlib.myproject_softmax_array_array_ap...
+Compiling module xil_defaultlib.myproject_fifo_w132_d576_A_ram
+Compiling module xil_defaultlib.myproject_fifo_w132_d576_A
+Compiling module xil_defaultlib.myproject_fifo_w48_d576_A_ram
+Compiling module xil_defaultlib.myproject_fifo_w48_d576_A
+Compiling module xil_defaultlib.myproject_fifo_w48_d144_A_ram
+Compiling module xil_defaultlib.myproject_fifo_w48_d144_A
+Compiling module xil_defaultlib.myproject_fifo_w400_d64_A_ram
+Compiling module xil_defaultlib.myproject_fifo_w400_d64_A
+Compiling module xil_defaultlib.myproject_fifo_w128_d64_A_ram
+Compiling module xil_defaultlib.myproject_fifo_w128_d64_A
+Compiling module xil_defaultlib.myproject_fifo_w128_d16_A_ram
+Compiling module xil_defaultlib.myproject_fifo_w128_d16_A
+Compiling module xil_defaultlib.myproject_fifo_w400_d1_S_ShiftRe...
+Compiling module xil_defaultlib.myproject_fifo_w400_d1_S
+Compiling module xil_defaultlib.myproject_fifo_w544_d1_S_ShiftRe...
+Compiling module xil_defaultlib.myproject_fifo_w544_d1_S
+Compiling module xil_defaultlib.myproject_fifo_w128_d1_S_ShiftRe...
+Compiling module xil_defaultlib.myproject_fifo_w128_d1_S
+Compiling module xil_defaultlib.myproject_fifo_w336_d1_S_ShiftRe...
+Compiling module xil_defaultlib.myproject_fifo_w336_d1_S
+Compiling module xil_defaultlib.myproject_fifo_w480_d1_S_ShiftRe...
+Compiling module xil_defaultlib.myproject_fifo_w480_d1_S
+Compiling module xil_defaultlib.myproject_fifo_w210_d1_S_ShiftRe...
+Compiling module xil_defaultlib.myproject_fifo_w210_d1_S
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_pooling2d_cl...
+Compiling module xil_defaultlib.myproject_start_for_pooling2d_cl...
+Compiling module xil_defaultlib.myproject_start_for_conv_2d_cl_a...
+Compiling module xil_defaultlib.myproject_start_for_conv_2d_cl_a...
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_pooling2d_cl...
+Compiling module xil_defaultlib.myproject_start_for_pooling2d_cl...
+Compiling module xil_defaultlib.myproject_start_for_dense_array_...
+Compiling module xil_defaultlib.myproject_start_for_dense_array_...
+Compiling module xil_defaultlib.myproject_start_for_normalize_ar...
+Compiling module xil_defaultlib.myproject_start_for_normalize_ar...
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_dense_array_...
+Compiling module xil_defaultlib.myproject_start_for_dense_array_...
+Compiling module xil_defaultlib.myproject_start_for_normalize_ar...
+Compiling module xil_defaultlib.myproject_start_for_normalize_ar...
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_hard_tanh_ar...
+Compiling module xil_defaultlib.myproject_start_for_dense_array_...
+Compiling module xil_defaultlib.myproject_start_for_dense_array_...
+Compiling module xil_defaultlib.myproject_start_for_softmax_arra...
+Compiling module xil_defaultlib.myproject_start_for_softmax_arra...
+Compiling module xil_defaultlib.myproject
+Compiling module xil_defaultlib.fifo(DEPTH=784)
+Compiling module xil_defaultlib.AESL_axi_s_input_layer
+Compiling module xil_defaultlib.fifo(DEPTH=2,WIDTH=80)
+Compiling module xil_defaultlib.AESL_axi_s_layer21_out
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_report_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detector_1
+Compiling module xil_defaultlib.AESL_deadlock_idx0_monitor
+Compiling module xil_defaultlib.AESL_deadlock_kernel_monitor_top...
+Compiling module xil_defaultlib.df_fifo_intf
+Compiling module xil_defaultlib.df_process_intf
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=3)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.upc_loop_intf
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=6)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_myproject_top
+Compiling module work.glbl
+Built simulation snapshot myproject
+
+****** xsim v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/myproject/xsim_script.tcl
+# xsim {myproject} -autoloadwcfg -tclbatch {myproject.tcl}
+Time resolution is 1 ps
+source myproject.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 3 [0.00%] @ "113000"
+// RTL Simulation : 1 / 3 [50.59%] @ "17898000"
+// RTL Simulation : 2 / 3 [50.59%] @ "29668000"
+// RTL Simulation : 3 / 3 [100.00%] @ "35778000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 35807500 ps : File "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 249
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  4 16:15:32 2025...
+INFO: [COSIM 212-316] Starting C post checking ...
+Processing input 0
+Predictions
+1.85547e-06 6.01003e-06 2.98436e-05 3.94977e-05 1.18709e-05 5.65142e-06 2.71158e-06 0.999892 4.14275e-06 6.22508e-06 
+Quantized predictions
+0 0 0 0 0 0 0 1 0 0 
+Processing input 1
+Predictions
+6.15865e-06 1.33927e-05 0.999906 3.26973e-05 1.57397e-06 1.32995e-06 2.84592e-06 1.41365e-06 3.17222e-05 2.80727e-06 
+Quantized predictions
+0 0 1 0 0 0 0 0 0 0 
+Processing input 2
+Predictions
+1.07168e-05 0.999172 0.00054459 4.50246e-06 1.61744e-05 9.23983e-05 3.81058e-05 4.63928e-05 7.25242e-05 2.48164e-06 
+Quantized predictions
+0 1 0 0 0 0 0 0 0 0 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+
+========================================
+Accuracy: 100%
+========================================
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 784
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 95.14 seconds. CPU system time: 2.29 seconds. Elapsed time: 39.45 seconds; current allocated memory: 24.664 MB.
+INFO: [HLS 200-112] Total CPU user time: 96.36 seconds. Total CPU system time: 2.44 seconds. Total elapsed time: 40.76 seconds; peak allocated memory: 337.371 MB.

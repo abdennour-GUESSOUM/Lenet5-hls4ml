@@ -1,0 +1,910 @@
+---
+MainSourceFile:  "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          790981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          1018809
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          1019277
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          1019746
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          1303290
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_types.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          1677459
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_types.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          1677834
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2359042
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2359429
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2359764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2359987
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2360082
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2360446
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2360528
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2360871
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2361324
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2361369
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2361778
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_helpers.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2361991
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_conv1d_latency.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2371512
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_conv1d_latency.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2371596
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_conv1d_latency.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2372138
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_conv1d_latency.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2372222
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2375682
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2375935
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2376296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2377112
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2377773
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2378907
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2379269
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2380172
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2380691
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2381531
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2381801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2382325
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2382559
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2382919
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2383848
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2383965
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2384019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2384600
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2385087
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2385228
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2386193
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2386830
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_459_1:  '
+    FileOffset:      459
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2387666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_459_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2388008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_489_1:  '
+    FileOffset:      489
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2388466
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_489_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_1:  '
+    FileOffset:      507
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2388936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_524_1:  '
+    FileOffset:      524
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2389339
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_524_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_541_1:  '
+    FileOffset:      541
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2389734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_541_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_571_1:  '
+    FileOffset:      571
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2390400
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_571_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2390974
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_620_1:  '
+    FileOffset:      620
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2391640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_620_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_639_1:  '
+    FileOffset:      639
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2392194
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_639_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_669_1:  '
+    FileOffset:      669
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2392843
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_669_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_696_1:  '
+    FileOffset:      696
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2393681
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_725_1:  '
+    FileOffset:      725
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2394299
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_725_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_746_1:  '
+    FileOffset:      746
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2394926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_746_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_764_1:  '
+    FileOffset:      764
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2395315
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_764_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_784_1:  '
+    FileOffset:      784
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2395711
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_784_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2397787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2397927
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2398192
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2398386
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2398479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2398805
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2398915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2399881
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2399967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2400643
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2406976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2407260
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2410473
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2410615
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_activation_stream.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2410819
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_dense_resource.h"
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_dense_resource.h"
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_dense_resource.h"
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_88_1:  '
+    FileOffset:      88
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_batchnorm.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2439120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_88_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_batchnorm.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2439777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_64_1:  '
+    FileOffset:      64
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2454258
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_64_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2454462
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_dense_compressed.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2470823
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_dense_compressed.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2472694
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2476930
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2477129
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_96_1:  '
+    FileOffset:      96
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2479020
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_96_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_2:  '
+    FileOffset:      98
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2479077
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_103_3:  '
+    FileOffset:      103
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2479302
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_103_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_1:  '
+    FileOffset:      131
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2480621
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_2:  '
+    FileOffset:      134
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2480764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2482966
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_2:  '
+    FileOffset:      189
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2483023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_3:  '
+    FileOffset:      191
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2483117
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_4:  '
+    FileOffset:      198
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2483376
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_5:  '
+    FileOffset:      200
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2483452
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_241_1:  '
+    FileOffset:      241
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2485827
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_241_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_2:  '
+    FileOffset:      243
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2485884
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_3:  '
+    FileOffset:      245
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2485978
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_251_4:  '
+    FileOffset:      251
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2486234
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_5:  '
+    FileOffset:      253
+    FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/firmware/nnet_utils/nnet_pooling.h"
+    Replacements:    
+      - FilePath:        "/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp"
+        Offset:          2486310
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_5: '
+...

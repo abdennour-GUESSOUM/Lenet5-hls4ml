@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Nov  4 16:15:29 2025
+# Process ID: 25748
+# Current directory: /home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
+# Log file: /home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/xsim.log
+# Journal file: /home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/sim/verilog/xsim.jou
+# Running On: info-m15-010, OS: Linux, CPU Frequency: 799.423 MHz, CPU Physical cores: 12, Host memory: 33344 MB
+#-----------------------------------------------------------
+source xsim.dir/myproject/xsim_script.tcl
+source myproject.tcl

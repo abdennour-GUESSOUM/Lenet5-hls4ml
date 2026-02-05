@@ -1,0 +1,26 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+make: 'csim.exe' is up to date.
+Processing input 0
+Predictions
+1.85547e-06 6.01003e-06 2.98436e-05 3.94977e-05 1.18709e-05 5.65142e-06 2.71158e-06 0.999892 4.14275e-06 6.22508e-06 
+Quantized predictions
+0 0 0 0 0 0 0 1 0 0 
+Processing input 1
+Predictions
+6.15865e-06 1.33927e-05 0.999906 3.26973e-05 1.57397e-06 1.32995e-06 2.84592e-06 1.41365e-06 3.17222e-05 2.80727e-06 
+Quantized predictions
+0 0 1 0 0 0 0 0 0 0 
+Processing input 2
+Predictions
+1.07168e-05 0.999172 0.00054459 4.50246e-06 1.61744e-05 9.23983e-05 3.81058e-05 4.63928e-05 7.25242e-05 2.48164e-06 
+Quantized predictions
+0 1 0 0 0 0 0 0 0 0 
+INFO: Saved inference results to file: tb_data/csim_results.log
+
+========================================
+Accuracy: 100%
+========================================
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 784
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

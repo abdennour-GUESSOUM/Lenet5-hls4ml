@@ -1,0 +1,504 @@
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28391:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28391:7: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29365:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29365:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29379:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29379:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29393:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29393:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:31010:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:31010:7: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32993:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32993:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:33006:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:33006:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56228:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56228:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56238:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56238:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56249:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56249:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56256:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56256:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56258:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56258:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56270:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56270:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56272:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56272:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56287:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56287:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56307:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56307:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56308:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56308:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56323:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56323:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56330:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56330:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56640:5: warning: Added loop label VITIS_LOOP_136_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_136_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56640:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56641:9: warning: Added loop label VITIS_LOOP_137_2:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_137_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56641:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56662:5: warning: Added loop label VITIS_LOOP_158_3:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_158_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56662:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56663:9: warning: Added loop label VITIS_LOOP_159_4:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_159_4: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56663:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56781:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56781:2: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56793:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56793:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56807:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56807:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56834:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56834:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56864:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56864:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56901:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56901:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56912:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56912:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56945:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56945:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56959:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56959:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56993:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56993:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57002:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57002:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57016:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57016:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57023:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57023:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57036:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57036:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57073:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57073:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57078:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57078:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57079:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57079:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57096:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57096:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57109:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57109:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57117:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57117:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57152:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57152:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57182:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57182:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57209:2: warning: Added loop label VITIS_LOOP_459_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_459_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57209:2: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57223:2: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_473_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57223:2: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57239:5: warning: Added loop label VITIS_LOOP_489_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_489_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57239:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57257:5: warning: Added loop label VITIS_LOOP_507_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_507_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57257:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57274:5: warning: Added loop label VITIS_LOOP_524_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_524_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57274:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57291:5: warning: Added loop label VITIS_LOOP_541_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_541_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57291:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57321:5: warning: Added loop label VITIS_LOOP_571_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_571_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57321:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57340:5: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_590_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57340:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57370:5: warning: Added loop label VITIS_LOOP_620_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_620_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57370:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57389:5: warning: Added loop label VITIS_LOOP_639_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_639_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57389:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57419:5: warning: Added loop label VITIS_LOOP_669_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_669_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57419:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57446:5: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_696_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57446:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57475:5: warning: Added loop label VITIS_LOOP_725_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_725_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57475:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57496:5: warning: Added loop label VITIS_LOOP_746_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_746_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57496:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57514:5: warning: Added loop label VITIS_LOOP_764_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_764_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57514:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57534:5: warning: Added loop label VITIS_LOOP_784_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_784_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57534:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57630:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57630:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57637:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57637:13: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57646:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57646:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57655:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57655:13: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57659:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57659:17: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57670:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57670:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57674:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57674:13: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57698:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57698:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57702:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57702:13: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57721:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57721:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57947:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57947:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57956:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57956:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58062:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58062:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58067:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58067:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58075:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58075:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58659:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58733:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58815:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59055:5: warning: Added loop label VITIS_LOOP_88_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_88_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59055:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59075:5: warning: Added loop label VITIS_LOOP_108_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_108_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59075:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59522:9: warning: Added loop label VITIS_LOOP_64_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < __SHIFT_DEPTH__; ++i)
+        ^~~
+        VITIS_LOOP_64_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59522:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59529:9: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < __SHIFT_DEPTH__; ++i)
+        ^~~
+        VITIS_LOOP_71_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59529:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60042:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60042:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60102:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60102:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60238:5: warning: Added loop label VITIS_LOOP_13_1:   [xilinx-label-all-loops]
+    for (int i = 1; i < N; i++) {
+    ^~~
+    VITIS_LOOP_13_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60238:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60247:5: warning: Added loop label VITIS_LOOP_22_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_22_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60247:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60321:5: warning: Added loop label VITIS_LOOP_96_1:   [xilinx-label-all-loops]
+    for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+    ^~~
+    VITIS_LOOP_96_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60321:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60323:9: warning: Added loop label VITIS_LOOP_98_2:   [xilinx-label-all-loops]
+        for (int ii = 0; ii < restricted_padded_width; ii += CONFIG_T::stride_width) {
+        ^~~
+        VITIS_LOOP_98_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60323:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60328:2: warning: Added loop label VITIS_LOOP_103_3:   [xilinx-label-all-loops]
+ for (int jj = 0; jj < CONFIG_T::pool_width; jj++) {
+ ^~~
+ VITIS_LOOP_103_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60328:2: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60356:2: warning: Added loop label VITIS_LOOP_131_1:   [xilinx-label-all-loops]
+ for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+ ^~~
+ VITIS_LOOP_131_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60356:2: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60359:2: warning: Added loop label VITIS_LOOP_134_2:   [xilinx-label-all-loops]
+ for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+ ^~~
+ VITIS_LOOP_134_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60359:2: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60412:5: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
+    for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+    ^~~
+    VITIS_LOOP_187_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60412:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60414:9: warning: Added loop label VITIS_LOOP_189_2:   [xilinx-label-all-loops]
+        for (int ii = 0; ii < restricted_padded_height; ii += CONFIG_T::stride_height) {
+        ^~~
+        VITIS_LOOP_189_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60414:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60416:13: warning: Added loop label VITIS_LOOP_191_3:   [xilinx-label-all-loops]
+            for (int jj = 0; jj < restricted_padded_width; jj += CONFIG_T::stride_width) {
+            ^~~
+            VITIS_LOOP_191_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60416:13: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60423:17: warning: Added loop label VITIS_LOOP_198_4:   [xilinx-label-all-loops]
+                for (int kk = 0; kk < CONFIG_T::stride_height; kk++) {
+                ^~~
+                VITIS_LOOP_198_4: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60423:17: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60425:21: warning: Added loop label VITIS_LOOP_200_5:   [xilinx-label-all-loops]
+                    for (int ll = 0; ll < CONFIG_T::stride_width; ll++) {
+                    ^~~
+                    VITIS_LOOP_200_5: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60425:21: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60466:5: warning: Added loop label VITIS_LOOP_241_1:   [xilinx-label-all-loops]
+    for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+    ^~~
+    VITIS_LOOP_241_1: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60466:5: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60468:9: warning: Added loop label VITIS_LOOP_243_2:   [xilinx-label-all-loops]
+        for (int ii = 0; ii < restricted_padded_height; ii += CONFIG_T::stride_height) {
+        ^~~
+        VITIS_LOOP_243_2: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60468:9: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60470:13: warning: Added loop label VITIS_LOOP_245_3:   [xilinx-label-all-loops]
+            for (int jj = 0; jj < restricted_padded_width; jj += CONFIG_T::stride_width) {
+            ^~~
+            VITIS_LOOP_245_3: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60470:13: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60476:17: warning: Added loop label VITIS_LOOP_251_4:   [xilinx-label-all-loops]
+                for (int kk = 0; kk < CONFIG_T::stride_height; kk++) {
+                ^~~
+                VITIS_LOOP_251_4: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60476:17: note: FIX-IT applied suggested code changes
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60478:21: warning: Added loop label VITIS_LOOP_253_5:   [xilinx-label-all-loops]
+                    for (int ll = 0; ll < CONFIG_T::stride_width; ll++) {
+                    ^~~
+                    VITIS_LOOP_253_5: 
+/home2/etudiants/master2/abdennour.guessoum/Téléchargements/M2/Projet_M2/hls4ml-tutorial/Lenet5/lenet5_quantifié_8_4/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60478:21: note: FIX-IT applied suggested code changes
