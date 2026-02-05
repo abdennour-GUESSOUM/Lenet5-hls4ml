@@ -383,25 +383,18 @@ export LDFLAGS=''
 ---
 
 ## 16. Références
-
 - **hls4ml**: https://github.com/fastmachinelearning/hls4ml
 - **QKeras**: https://github.com/google/qkeras
 - **TensorFlow Model Optimization**: https://www.tensorflow.org/model_optimization
 - **Xilinx Vitis HLS**: https://www.xilinx.com/products/design-tools/vitis/vitis-hls.html
 
----
-
-## 17. Auteurs et licence
-
-Projet réalisé dans le cadre d'un projet M2 sur l'accélération matérielle de réseaux de neurones avec hls4ml.
 
 ---
 
-## 18. TODO
+## 17. TODO
 
 - [ ] Évaluer les performances de latence et débit après synthèse complète
 - [ ] Tester la co-simulation (cosim=True) pour validation RTL
 - [ ] Optimiser le ReuseFactor pour différents trade-offs ressources/performance
-- [ ] Implémenter sur carte ZCU102/104 réelle
-- [ ] Comparer avec d'autres stratégies de quantification (4 bits, 2 bits)
-- [ ] Ajouter support pour inférence batch
+- [ ] Implémenter sur carte réelle
+- [ ] Comparer avec d'autres stratégies de quantification
